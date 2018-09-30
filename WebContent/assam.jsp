@@ -10,7 +10,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Clear Hai?!</title>
+  <title>Member | Libra Application</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -93,85 +93,25 @@
           <li class="nav-item">
             <a class="nav-link" href="CompanyShortage">
               <span class="menu-title">Shortages</span>
-             <!-- <i class="menu-arrow"></i> -->
+             <i class="mdi mdi-arrow-down-bold menu-icon"></i>
               
             </a>
-           <!-- <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
-              </ul>
-            </div> -->
           </li>
 		  <li class="nav-item"> 
             <a class="nav-link" href="borrow" >
               <span class="menu-title">Securities</span>
+              <i class="mdi mdi-newspaper menu-icon"></i>
             
             </a>
           </li>
           <li class="nav-item"> 
             <a class="nav-link" href="chart" >
-              <span class="menu-title">charts</span>
+              <span class="menu-title">Charts</span>
+              <i class="mdi mdi-chart-areaspline menu-icon"></i>
              
             </a>
           </li>
-        <!--  <li class="nav-item">
-            <a class="nav-link" href="pages/icons/mdi.html">
-              <span class="menu-title">Securities</span>
-              <i class="mdi mdi-book-multiple menu-icon"></i>
-            </a>
-          </li>
-         <li class="nav-item">
-            <a class="nav-link" href="pages/forms/basic_elements.html">
-              <span class="menu-title">Buy</span>
-              <i class="mdi mdi-cart menu-icon"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/charts/chartjs.html">
-              <span class="menu-title">Sell</span>
-              <i class="mdi mdi-currency-eur menu-icon"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html">
-              <span class="menu-title">Tables</span>
-              <i class="mdi mdi-table-large menu-icon"></i>
-            </a>
-          </li> -->
-          <!-- <li class="nav-item"> -->
-            <!-- <a class="nav-link" data-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages"> -->
-              <!-- <span class="menu-title">Sample Pages</span> -->
-              <!-- <i class="menu-arrow"></i> -->
-              <!-- <i class="mdi mdi-medical-bag menu-icon"></i> -->
-            <!-- </a> -->
-            <!-- <div class="collapse" id="general-pages"> -->
-              <!-- <ul class="nav flex-column sub-menu"> -->
-                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li> -->
-                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li> -->
-                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li> -->
-                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li> -->
-                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li> -->
-              <!-- </ul> -->
-              <!-- </div> -->
-          </li>
-          <!-- <li class="nav-item sidebar-actions"> -->
-            <!-- <span class="nav-link"> -->
-              <!-- <div class="border-bottom"> -->
-                <!-- <h6 class="font-weight-normal mb-3">Projects</h6>                 -->
-              <!-- </div> -->
-              <!-- <button class="btn btn-block btn-lg btn-gradient-primary mt-4">+ Add a project</button> -->
-              <!-- <div class="mt-4"> -->
-                <!-- <div class="border-bottom"> -->
-                  <!-- <p class="text-secondary">Categories</p>                   -->
-                <!-- </div> -->
-                <!-- <ul class="gradient-bullet-list mt-4"> -->
-                  <!-- <li>Free</li> -->
-                  <!-- <li>Pro</li> -->
-                <!-- </ul> -->
-              <!-- </div> -->
-            <!-- </span> -->
-          <!-- </li> -->
+       
         </ul>
       </nav>
       <!-- partial -->
@@ -207,7 +147,7 @@
             <div class="col-lg-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body" >
-                  <h4 class="card-title">TRANSACTION OF BOUGHT SECURITIES</h4>
+                  <h4 class="card-title" style="color:white;">TRANSACTION OF BOUGHT SECURITIES</h4>
                   
                   <%
 					List<Transaction> list1 = (List<Transaction>)request.getAttribute("table1");
@@ -273,7 +213,7 @@
 			<div class="col-lg-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body" >
-                  <h4 class="card-title">TRANSACTION OF SOLD SECURITIES</h4>
+                  <h4 class="card-title" style="color:white;">TRANSACTION OF SOLD SECURITIES</h4>
                   
                   <table class="table table-dark">
                     <thead>

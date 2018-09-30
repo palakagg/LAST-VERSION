@@ -12,7 +12,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Admin | Libra Application</title>
+  <title>Admin/History | Libra Application</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -64,7 +64,7 @@ HttpSession session2=request.getSession(false);
       </div>
     </nav>
     <!-- partial -->
-    <div class="container-fluid page-body-wrapper">
+    <div class="container-fluid page-body-wrapper" style="padding-top: 50px;">
       <!-- partial:partials/_sidebar.html -->
      <nav class="sidebar sidebar-offcanvas" id="sidebar">
      <div id="nav">
@@ -89,7 +89,7 @@ HttpSession session2=request.getSession(false);
               <i class="mdi mdi-home menu-icon"></i>
             </a>
           </li>
-           <li class="nav-item"> 
+           <li class="nav-item" style="background: #242424;"> 
             <a class="nav-link" href="history">
               <span class="menu-title">History</span>
               <i class="mdi mdi-history menu-icon"></i>
@@ -343,7 +343,7 @@ HttpSession session2=request.getSession(false);
 
   <!-- plugins:js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
- <!--  --> <script src="js/scripts.js"></script> -->
+ <!--  --> <script src="js/scripts.js"></script>
   <script src="vendors/js/vendor.bundle.base.js"></script>
   <script src="vendors/js/vendor.bundle.addons.js"></script>
   <script src="data.js"></script>

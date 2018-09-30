@@ -16,7 +16,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Clear Hai?!</title>
+  <title>Charts | Libra Application</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -98,88 +98,28 @@
               <i class="mdi mdi-home menu-icon"></i>
             </a>
           </li>
-          <li class="nav-item">
-           <a class="nav-link" href="CompanyShortage">
+                    <li class="nav-item">
+            <a class="nav-link" href="CompanyShortage">
               <span class="menu-title">Shortages</span>
-             <!-- <i class="menu-arrow"></i> -->
-             
+              <i class="mdi mdi-arrow-down-bold menu-icon"></i>
+              
             </a>
-           <!-- <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
-              </ul>
-            </div> -->
           </li>
 		  <li class="nav-item"> 
             <a class="nav-link" href="borrow" >
               <span class="menu-title">Securities</span>
-             
+              <i class="mdi mdi-newspaper menu-icon"></i>
+              
             </a>
           </li>
           <li class="nav-item"> 
             <a class="nav-link" href="chart" >
               <span class="menu-title">Charts</span>
+              <i class="mdi mdi-chart-areaspline menu-icon"></i>
               
             </a>
           </li>
-        <!--  <li class="nav-item">
-            <a class="nav-link" href="pages/icons/mdi.html">
-              <span class="menu-title">Securities</span>
-              <i class="mdi mdi-book-multiple menu-icon"></i>
-            </a>
-          </li>
-         <li class="nav-item">
-            <a class="nav-link" href="pages/forms/basic_elements.html">
-              <span class="menu-title">Buy</span>
-              <i class="mdi mdi-cart menu-icon"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/charts/chartjs.html">
-              <span class="menu-title">Sell</span>
-              <i class="mdi mdi-currency-eur menu-icon"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html">
-              <span class="menu-title">Tables</span>
-              <i class="mdi mdi-table-large menu-icon"></i>
-            </a>
-          </li> -->
-          <!-- <li class="nav-item"> -->
-            <!-- <a class="nav-link" data-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages"> -->
-              <!-- <span class="menu-title">Sample Pages</span> -->
-              <!-- <i class="menu-arrow"></i> -->
-              <!-- <i class="mdi mdi-medical-bag menu-icon"></i> -->
-            <!-- </a> -->
-            <!-- <div class="collapse" id="general-pages"> -->
-              <!-- <ul class="nav flex-column sub-menu"> -->
-                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li> -->
-                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li> -->
-                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li> -->
-                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li> -->
-                <!-- <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li> -->
-              <!-- </ul> -->
-              <!-- </div> -->
-          </li>
-          <!-- <li class="nav-item sidebar-actions"> -->
-            <!-- <span class="nav-link"> -->
-              <!-- <div class="border-bottom"> -->
-                <!-- <h6 class="font-weight-normal mb-3">Projects</h6>                 -->
-              <!-- </div> -->
-              <!-- <button class="btn btn-block btn-lg btn-gradient-primary mt-4">+ Add a project</button> -->
-              <!-- <div class="mt-4"> -->
-                <!-- <div class="border-bottom"> -->
-                  <!-- <p class="text-secondary">Categories</p>                   -->
-                <!-- </div> -->
-                <!-- <ul class="gradient-bullet-list mt-4"> -->
-                  <!-- <li>Free</li> -->
-                  <!-- <li>Pro</li> -->
-                <!-- </ul> -->
-              <!-- </div> -->
-            <!-- </span> -->
-          <!-- </li> -->
+        
         </ul>
       </nav>
       <!-- partial -->
@@ -189,19 +129,19 @@
           <div class="page-header">
             
              <div class="row">
-            <div class="col-lg-6 grid-margin stretch-card">
-              <div class="card">
+            <div class="col-lg-6 grid-margin stretch-card" >
+              <div class="card" style="background: rgba(70,70,70, 0.3); ">
                 <div class="card-body style="width: 18rem;">
-                  <h4 class="card-title">Amount Spent to Buy Different Securities</h4>
+                  <h4 class="card-title" style="color: white;">Amount Spent to Buy Different Securities</h4>
                    <canvas id="myChart" width="200" height="150""> </canvas>
                   
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 grid-margin stretch-card">
-              <div class="card">
+            <div class="col-lg-6 grid-margin stretch-card" >
+              <div class="card" style="background: rgba(70,70,70, 0.3); ">
                 <div class="card-body">
-                  <h4 class="card-title">Amount Received From Selling DIfferent Securities</h4>
+                  <h4 class="card-title" style="color: white;">Amount Received From Selling DIfferent Securities</h4>
                  <canvas id="myChart1" width="200" height="150"></canvas>
                 </div>
               </div>
@@ -209,296 +149,11 @@
           </div>
            
           
-          <!--   <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Charts</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Chart-js</li>
-              </ol>
-            </nav> -->
+        
           </div>
-        <!--    <div class="row">
-            <div class="col-lg-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Pie chart</h4>
-                  <canvas id="pieChart" style="height:250px"></canvas>
-                </div>
-              </div>
-            </div> -->
+        
             </div>
-          <!-- <div class="row"> -->
-            <!-- <div class="col-12 grid-margin"> -->
-              <!-- <div class="card"> -->
-                <!-- <div class="card-body"> -->
-                  <!-- <h4 class="card-title">Recent Tickets</h4> -->
-                  <!-- <div class="table-responsive"> -->
-                    <!-- <table class="table"> -->
-                      <!-- <thead> -->
-                        <!-- <tr> -->
-                          <!-- <th> -->
-                            <!-- Assignee -->
-                          <!-- </th> -->
-                          <!-- <th> -->
-                            <!-- Subject -->
-                          <!-- </th> -->
-                          <!-- <th> -->
-                            <!-- Status -->
-                          <!-- </th> -->
-                          <!-- <th> -->
-                            <!-- Last Update -->
-                          <!-- </th> -->
-                          <!-- <th> -->
-                            <!-- Tracking ID -->
-                          <!-- </th> -->
-                        <!-- </tr> -->
-                      <!-- </thead> -->
-                      <!-- <tbody> -->
-                        <!-- <tr> -->
-                          <!-- <td> -->
-                            <!-- <img src="images/faces/face1.jpg" class="mr-2" alt="image"> -->
-                            <!-- David Grey -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Fund is not recieved -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- <label class="badge badge-gradient-success">DONE</label> -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Dec 5, 2017 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- WD-12345 -->
-                          <!-- </td> -->
-                        <!-- </tr> -->
-                        <!-- <tr> -->
-                          <!-- <td> -->
-                            <!-- <img src="images/faces/face2.jpg" class="mr-2" alt="image"> -->
-                            <!-- Stella Johnson -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- High loading time -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- <label class="badge badge-gradient-warning">PROGRESS</label> -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Dec 12, 2017 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- WD-12346 -->
-                          <!-- </td> -->
-                        <!-- </tr> -->
-                        <!-- <tr> -->
-                          <!-- <td> -->
-                            <!-- <img src="images/faces/face3.jpg" class="mr-2" alt="image"> -->
-                            <!-- Marina Michel -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Website down for one week -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- <label class="badge badge-gradient-info">ON HOLD</label> -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Dec 16, 2017 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- WD-12347 -->
-                          <!-- </td> -->
-                        <!-- </tr> -->
-                        <!-- <tr> -->
-                          <!-- <td> -->
-                            <!-- <img src="images/faces/face4.jpg" class="mr-2" alt="image"> -->
-                            <!-- John Doe -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Loosing control on server -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- <label class="badge badge-gradient-danger">REJECTED</label> -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Dec 3, 2017 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- WD-12348 -->
-                          <!-- </td> -->
-                        <!-- </tr> -->
-                      <!-- </tbody> -->
-                    <!-- </table> -->
-                  <!-- </div> -->
-                <!-- </div> -->
-              <!-- </div> -->
-            <!-- </div> -->
-          <!-- </div> -->
-          <!-- <div class="row"> -->
-            <!-- <div class="col-12 grid-margin stretch-card"> -->
-              <!-- <div class="card"> -->
-                <!-- <div class="card-body"> -->
-                  <!-- <h4 class="card-title">Recent Updates</h4> -->
-                  <!-- <div class="d-flex"> -->
-                    <!-- <div class="d-flex align-items-center mr-4 text-muted font-weight-light"> -->
-                      <!-- <i class="mdi mdi-account-outline icon-sm mr-2"></i> -->
-                      <!-- <span>jack Menqu</span> -->
-                    <!-- </div> -->
-                    <!-- <div class="d-flex align-items-center text-muted font-weight-light"> -->
-                      <!-- <i class="mdi mdi-clock icon-sm mr-2"></i> -->
-                      <!-- <span>October 3rd, 2018</span> -->
-                    <!-- </div> -->
-                  <!-- </div> -->
-                  <!-- <div class="row mt-3"> -->
-                    <!-- <div class="col-6 pr-1"> -->
-                      <!-- <img src="images/dashboard/img_1.jpg" class="mb-2 mw-100 w-100 rounded" alt="image"> -->
-                      <!-- <img src="images/dashboard/img_4.jpg" class="mw-100 w-100 rounded" alt="image"> -->
-                    <!-- </div> -->
-                    <!-- <div class="col-6 pl-1"> -->
-                      <!-- <img src="images/dashboard/img_2.jpg" class="mb-2 mw-100 w-100 rounded" alt="image"> -->
-                      <!-- <img src="images/dashboard/img_3.jpg" class="mw-100 w-100 rounded" alt="image"> -->
-                    <!-- </div> -->
-                  <!-- </div> -->
-                  <!-- <div class="d-flex mt-5 align-items-top"> -->
-                    <!-- <img src="images/faces/face3.jpg" class="img-sm rounded-circle mr-3" alt="image"> -->
-                    <!-- <div class="mb-0 flex-grow"> -->
-                      <!-- <h5 class="mr-2 mb-2">School Website - Authentication Module.</h5> -->
-                      <!-- <p class="mb-0 font-weight-light">It is a long established fact that a reader will be distracted by the readable -->
-                        <!-- content of a page.</p> -->
-                    <!-- </div> -->
-                    <!-- <div class="ml-auto"> -->
-                      <!-- <i class="mdi mdi-heart-outline text-muted"></i> -->
-                    <!-- </div> -->
-                  <!-- </div> -->
-                <!-- </div> -->
-              <!-- </div> -->
-            <!-- </div> -->
-          <!-- </div> -->
-          <!-- <div class="row"> -->
-            <!-- <div class="col-md-12 grid-margin stretch-card"> -->
-              <!-- <div class="card"> -->
-                <!-- <div class="card-body"> -->
-                  <!-- <h4 class="card-title">Project Status</h4> -->
-                  <!-- <div class="table-responsive"> -->
-                    <!-- <table class="table"> -->
-                      <!-- <thead> -->
-                        <!-- <tr> -->
-                          <!-- <th> -->
-                            <!-- # -->
-                          <!-- </th> -->
-                          <!-- <th> -->
-                            <!-- Name -->
-                          <!-- </th> -->
-                          <!-- <th> -->
-                            <!-- Due Date -->
-                          <!-- </th> -->
-                          <!-- <th> -->
-                            <!-- Progress -->
-                          <!-- </th> -->
-                        <!-- </tr> -->
-                      <!-- </thead> -->
-                      <!-- <tbody> -->
-                        <!-- <tr> -->
-                          <!-- <td> -->
-                            <!-- 1 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Herman Beck -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- May 15, 2015 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- <div class="progress"> -->
-                              <!-- <div class="progress-bar bg-gradient-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div> -->
-                            <!-- </div> -->
-                          <!-- </td> -->
-                        <!-- </tr> -->
-                        <!-- <tr> -->
-                          <!-- <td> -->
-                            <!-- 2 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Messsy Adam -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Jul 01, 2015 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- <div class="progress"> -->
-                              <!-- <div class="progress-bar bg-gradient-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> -->
-                            <!-- </div> -->
-                          <!-- </td> -->
-                        <!-- </tr> -->
-                        <!-- <tr> -->
-                          <!-- <td> -->
-                            <!-- 3 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- John Richards -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Apr 12, 2015 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- <div class="progress"> -->
-                              <!-- <div class="progress-bar bg-gradient-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div> -->
-                            <!-- </div> -->
-                          <!-- </td> -->
-                        <!-- </tr> -->
-                        <!-- <tr> -->
-                          <!-- <td> -->
-                            <!-- 4 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Peter Meggik -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- May 15, 2015 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- <div class="progress"> -->
-                              <!-- <div class="progress-bar bg-gradient-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div> -->
-                            <!-- </div> -->
-                          <!-- </td> -->
-                        <!-- </tr> -->
-                        <!-- <tr> -->
-                          <!-- <td> -->
-                            <!-- 5 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Edward -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- May 03, 2015 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- <div class="progress"> -->
-                              <!-- <div class="progress-bar bg-gradient-danger" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div> -->
-                            <!-- </div> -->
-                          <!-- </td> -->
-                        <!-- </tr> -->
-                        <!-- <tr> -->
-                          <!-- <td> -->
-                            <!-- 5 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Ronald -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- Jun 05, 2015 -->
-                          <!-- </td> -->
-                          <!-- <td> -->
-                            <!-- <div class="progress"> -->
-                              <!-- <div class="progress-bar bg-gradient-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div> -->
-                            <!-- </div> -->
-                          <!-- </td> -->
-                        <!-- </tr> -->
-                      <!-- </tbody> -->
-                    <!-- </table> -->
-                  <!-- </div> -->
-                <!-- </div> -->
-              <!-- </div> -->
-            <!-- </div> -->
-          <!-- </div> -->
+          
           <footer class="footer">
         <span class="container-fluid" style="padding: 10px;">
            <nav class="pull-left">

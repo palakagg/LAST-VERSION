@@ -12,7 +12,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Libra Application</title>
+  <title>Securities | Libra Application</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -87,25 +87,27 @@ HttpSession session2=request.getSession(false);
               <i class="mdi mdi-home menu-icon"></i>
             </a>
           </li>
-<li class="nav-item">
-	 <a class="nav-link" href="shortage">
-              <span class="menu-title">Funds</span>
-              <i class="mdi mdi-cash-usd menu-icon"></i>
+          <li class="nav-item">
+            <a class="nav-link" href="CompanyShortage">
+              <span class="menu-title">Shortages</span>
+              <i class="mdi mdi-arrow-down-bold menu-icon"></i>
+              
             </a>
-		
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="shortage1">
+          </li>
+		  <li class="nav-item"> 
+            <a class="nav-link" href="borrow" >
               <span class="menu-title">Securities</span>
-              <i class="mdi mdi-file-document menu-icon"></i>
+              <i class="mdi mdi-newspaper menu-icon"></i>
+              
             </a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="adminchart">
+          </li>
+          <li class="nav-item"> 
+            <a class="nav-link" href="chart" >
               <span class="menu-title">Charts</span>
-              <i class="mdi mdi-chart-bar menu-icon"></i>
+              <i class="mdi mdi-chart-areaspline menu-icon"></i>
+              
             </a>
-	</li>
+          </li>
 	 </ul>
        </div>
      <div id="nav1" class="nav1">

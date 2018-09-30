@@ -10,7 +10,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Libra Application</title>
+  <title>Settled! | Libra Application</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -62,7 +62,9 @@ HttpSession session2=request.getSession(false);
       </div>
     </nav>
     <!-- partial -->
-    <div class="container-fluid page-body-wrapper">
+    <div class="container-fluid page-body-wrapper" style="
+    padding-top: 50px;
+">
       <!-- partial:partials/_sidebar.html -->
      <nav class="sidebar sidebar-offcanvas" id="sidebar">
      <div id="nav">
@@ -112,13 +114,13 @@ HttpSession session2=request.getSession(false);
 	<li class="nav-item">
 		<a class="nav-link" href="shortage">
               <span class="menu-title">Securities</span>
-              
+              <i class="mdi mdi-newspaper menu-icon"></i>
             </a>
 	</li>
 	<li class="nav-item">
 		<a class="nav-link" href="adminchart">
               <span class="menu-title">Charts</span>
-              
+              <i class="mdi mdi-chart-areaspline menu-icon"></i>
             </a>
 	</li>
 	
@@ -143,9 +145,11 @@ HttpSession session2=request.getSession(false);
           </div>
          <div class="row">
             <div class="col-lg-6 grid-margin stretch-card">
+            
               <div class="card">
+               <h4 class="card-title" style="color:white;">TRADE LIST</h4>
                 <div class="card-body" >
-                  <h4 class="card-title">TRADE LIST</h4>
+                 
                   
                   <%
 					List<Transaction> list1 = (List<Transaction>)request.getAttribute("transactions");
@@ -264,15 +268,25 @@ HttpSession session2=request.getSession(false);
         
         <!-- partial -->
       </div>
-      <footer class="footer">
-          <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">THANK YOU!! All rights reserved.<br>POWERED BY CITI</span>
-            <!-- <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="mdi mdi-heart text-danger"></i></span> -->
-
-          </div>
-        </footer>
+     
       <!-- main-panel ends -->
     </div>
+    <footer class="footer">
+        <span class="container-fluid" style="padding: 10px;">
+           <nav class="pull-left">
+                    <ul style="list-style: none;">
+                        <li>
+                            <a href="#">
+                                About us
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="copyright pull-right">
+                    &copy; <script>document.write(new Date().getFullYear())</script> Powered by CITI, All rights reserved
+                </p>
+            </div>
+    </footer>
     <!-- page-body-wrapper ends -->
   </div>
     
@@ -281,7 +295,7 @@ HttpSession session2=request.getSession(false);
 
   <!-- plugins:js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
- <!--  --> <script src="js/scripts.js"></script> -->
+ <!--  --> <script src="js/scripts.js"></script> 
   <script src="vendors/js/vendor.bundle.base.js"></script>
   <script src="vendors/js/vendor.bundle.addons.js"></script>
   <script src="data.js"></script>

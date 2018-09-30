@@ -26,7 +26,6 @@
 
   <div class="container">
     <select class="username" name="uname" for="uname" required style="width:100%; padding: 12px 20px; margin: 8px 0; border: 1px solid #ccc"><b>Username</b></label>
-    <!-- <input type="text" placeholder="Enter Username" name="uname" required> -->
     	<option value="Username">Username</option>
     	<option value="Admin">Admin</option>
     	<option value="Citi">Citi</option>

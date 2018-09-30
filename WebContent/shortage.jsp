@@ -13,7 +13,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Clear Hai?!</title>
+  <title>Shortages | Libra Application</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -98,25 +98,21 @@
           <li class="nav-item">
             <a class="nav-link" href="CompanyShortage">
               <span class="menu-title">Shortages</span>
-             <!-- <i class="menu-arrow"></i> -->
+              <i class="mdi mdi-arrow-down-bold menu-icon"></i>
               
             </a>
-           <!-- <div class="collapse" id="ui-basic">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
-              </ul>
-            </div> -->
           </li>
 		  <li class="nav-item"> 
             <a class="nav-link" href="borrow" >
               <span class="menu-title">Securities</span>
+              <i class="mdi mdi-newspaper menu-icon"></i>
               
             </a>
           </li>
           <li class="nav-item"> 
             <a class="nav-link" href="chart" >
               <span class="menu-title">Charts</span>
+              <i class="mdi mdi-chart-areaspline menu-icon"></i>
               
             </a>
           </li>
